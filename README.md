@@ -99,8 +99,8 @@ We're looking for stakeholders to help guide the next stages of development, and
 Get in touch if you'd like to learn more!
 
 ## Contact
-![apregoar_mini](https://user-images.githubusercontent.com/83875010/218809667-0812b06b-bc92-41e8-9009-bf258a772a3e.png)
-
 Callie Wentling
 
 ApregoarProject@gmail.com
+
+![apregoar_mini](https://user-images.githubusercontent.com/83875010/218809667-0812b06b-bc92-41e8-9009-bf258a772a3e.png)
