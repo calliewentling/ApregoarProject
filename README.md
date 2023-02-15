@@ -1,4 +1,4 @@
-# ApreogarProject
+# ApregoarProject
 ![apregoar_full](https://user-images.githubusercontent.com/83875010/218793627-a94d123b-c8ac-4bca-bfa4-f411e69edf6c.png)
 
 GEODATABASE AND MAPPING TOOLS for digital news, community, and geointelligence
