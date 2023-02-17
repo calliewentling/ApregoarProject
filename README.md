@@ -3,6 +3,9 @@
 
 GEODATABASE AND MAPPING TOOLS for digital news, community, and geointelligence
 
+## Want to share your perspective on spatial news?
+Please leave your contact information here if you're willing to partcipate in a short interview! https://forms.gle/e74TjjDhnMXzmEZT9
+
 ## The situation
 LOCALIZING is critical for people to understand their surroundings, and plays a large role in understanding events and their implications over time and space.
 
