@@ -1,19 +1,24 @@
 # ApregoarProject
 ![apregoar_full](https://user-images.githubusercontent.com/83875010/218793627-a94d123b-c8ac-4bca-bfa4-f411e69edf6c.png)
 
-GEODATABASE AND MAPPING TOOLS for digital news, community, and geointelligence
+Local + contextual news for communities
 
 ## Want to share your perspective on spatial news?
 Please leave your contact information here if you're willing to partcipate in a short interview! https://forms.gle/e74TjjDhnMXzmEZT9
 
-## The situation
+## Consider the places that are important to you
+Where you live, where your friends and family are, where you work, where you play.
+The places you want to visit.
+The places you have emotional connections to.
+
+## The relevance of place
 LOCALIZING is critical for people to understand their surroundings, and plays a large role in understanding events and their implications over time and space.
 
 THE NEWS is a repository of human activity, rife with rich descriptions of WHO, WHAT, WHEN, WHERE, HOW, and WHY things happen.
 
 WE LACK the mans to leverage this information for better informed citizens, nuanced monitoring of news coverage, efficient city management, improved research methods, or informed GeoINT operations.
 
-## The problem
+## Where we are
 Publishers, governments and activism groups want to communicate information clearly to their readers to improve understanding and engagement... but interactive spatial data visualizations aren't easy for journalists to create or manage.
 
 City users want to understand what is happening in their environment... but most articles don't include context maps, and the content of digital journals cannot yet be searched spatially or temporally.
@@ -21,43 +26,31 @@ City users want to understand what is happening in their environment... but most
 Researchers, city managers, and GeoInt Operations want to be able to search and ingest high quality information from the news... but they cannot access these resources, nor do they have access to "briefings" on an area.
 
 ## The industry
-
 Though the news industry is struggling to establish viable business models in the digital age, online news and social media are continuing to grow and displace other mediums.
 
 A lack of clear and efficient transmission of information leads to misinformed citizens and city managers. Digital media agencies know the value of data visualizations for engaging readers.
 
 Time, processing, and human resources are extended to scrape news and social media sites to extract event data for smart city and GeoINT applications.
 
-## The solution
-![apregoar_stakeholders](https://user-images.githubusercontent.com/83875010/218802635-1c3c8776-dd86-4a14-9b44-0507ea4b8a26.png)
-
+## Where we could be
 Stakeholders include:
 - Local news journals, national news agencies, community groups, and other content creators
 - Local government groups such as juntas de freguesia, and câmaras municipais and other managers
 - Citizens and city users
 - Researchers, smarty cities, and geointelligence operators
+![apregoar_stakeholders](https://user-images.githubusercontent.com/83875010/218802635-1c3c8776-dd86-4a14-9b44-0507ea4b8a26.png)
+
+### Where things happen
+A story represents one digital article. Each story may have multiple "instances" (spatial definitions). Instances can be contextual, or have a time associated (an "event").
+![apreogar_model](https://user-images.githubusercontent.com/83875010/228574653-d909dee5-77fd-46ab-9289-0dfe3f80396d.png)
 
 ### Publishing
+Users can "plugin" our event mapping tools directly to their existing back office practices, or map their published articles with our free web and mobile apps. Search from existing places, or design the custom footprint of your news event.
 ![publishing](https://user-images.githubusercontent.com/83875010/218809910-abe23f23-7cbf-4b63-86be-be44cf489b34.png)
-
-CROWDSOURCING web and mobile apps allow anyone to associate instances to published news stories as community contributors.
-
-COMMERCIAL back office plugins allow journalists to associate instances to the articles as they publish as verified contributors.
-
-In both tools, users can define place by choosing existing places from the built-in gazetteers (spatial libraries) and connections (ex: open street map). Eventually, a tool suggesting places based on the place names identified in the text can be confirmed or ignored by the user. Users can also upload their own spatial definitions or connect to other public resources. If no existing  places (or set of places) match where an event happened, users may design their own areas by drawing the locations on a map within the tools.
-
-### Geospatial database
-![apreogar_model](https://user-images.githubusercontent.com/83875010/218804327-916761c9-f2c1-4699-826d-aef62c970c28.png)
-
-A story represents one digital article. Each story may have multiple "instances" (spatial definition). Each instance will be of type "event" (with a temporal component) or "contextual" (with no time definition).
-
-Places can be already existing places (such as administrative boundaries, points of interest, etc.), or custom areas. Each instance must have at least one place, but may include multiple places and of different types.
-
-The data represented in the "GEONOTICIAS" query summarizes all of the relevant information from the relational geo database about each story or instance.
 
 ### Article contextualization
 An inline map and discovery view  allow readers to contextualize stories in space, and support "see more nearby" engagement with the original news source.
-![publishing](https://user-images.githubusercontent.com/83875010/218810929-061acf1c-f4fa-4136-a667-4d3efedfd27d.png)
+![contextualization](https://user-images.githubusercontent.com/83875010/228579625-20c55ae3-f18f-495c-8672-0cc2fa690dcf.png)
 
 ### Explore portals
 A GENERAL explore portal allows users to peruse, explore, and filter all stories added via the Apregoar GeoNews toolset, allowing refinement of relevant news by thematic, spatial, and temporal attributes. Upon discovery, user may read a selected article by following the link to the original source.
@@ -69,7 +62,7 @@ A WHITELABELED explore portal is embedded into a journal's site and permits peru
 ### Dashboarding tools
 Users at any level may save filtering preferences, identify areas of interest, create reading lists, and share briefings with other users. Results may be connected to directly via API, or exported as preferred.
 
-## Potential impact
+## Impact
 GEO-CONTEXTUALIZATION
  - Informed, active and engaged citizens with improved spatial awareness to empower communities and affect public planning
  - Improve user engagement directly with digital news
@@ -87,7 +80,7 @@ OPEN, MODULAR TOOLS
 - A "swiss army knife" of data and information tools
 - Additional connections for smart city, citizen participation, research, or commercial applications
 
-## The overview
+## Summary
 COMPREHENSIVE: Allows association of multiple spatial/temporal events and/or contextual places per article.
 
 REPRESENTATIVE: Nothing happens in zero dimensions. Instead of points, the tools allow the association of multi-polygons to represent places.
